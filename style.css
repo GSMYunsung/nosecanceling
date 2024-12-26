@@ -1,0 +1,99 @@
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.resume {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.8125rem 1.21875rem 2.4375rem 1.21875rem;
+}
+
+.highlight {
+  position: relative;
+}
+
+.cnai {
+  position: relative;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.period {
+  font-weight: bolder;
+}
+
+.teamo2 {
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+  padding: 2px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+li::before {
+  content: "•";
+  color: #ff6500;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.highlight::after {
+  content: "";
+  width: 105%;
+  display: inline-block;
+  background: #ff6500;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  height: 12px;
+}
+
+.cnai::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 40%;
+  bottom: 0;
+  opacity: 0.7;
+  border-radius: 25%;
+  background-color: #6f6de1;
+}
+
+.explain::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 2px;
+  margin-left: 3px;
+  height: 2.5%;
+  opacity: 1;
+  background-color: var(--blink-color, #000000);
+
+  animation: blink 1s step-start infinite;
+}
+
+.teamo2::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 40%;
+  bottom: 0;
+  opacity: 0.7;
+  border-radius: 25%;
+  background-color: #3452ff;
+}
