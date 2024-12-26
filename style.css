@@ -80,6 +80,7 @@ ul {
   width: 2px;
   margin-left: 3px;
   height: 18px;
+  margin-top: 4px;
   opacity: 1;
   background-color: var(--blink-color, #000000);
 
