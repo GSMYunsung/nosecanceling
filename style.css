@@ -56,7 +56,7 @@ ul {
   background: #ff6500;
   opacity: 0.5;
   position: absolute;
-  bottom: 12px;
+  bottom: 10px;
   left: 0;
   height: 12px;
 }
@@ -79,7 +79,7 @@ ul {
   position: absolute;
   width: 2px;
   margin-left: 3px;
-  height: 2.5%;
+  height: 18px;
   opacity: 1;
   background-color: var(--blink-color, #000000);
 
