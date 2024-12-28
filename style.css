@@ -109,12 +109,6 @@ ul {
   text-decoration: none;
 }
 
-.myselfInfo strong::before {
-  content: "| ";
-  margin-right: 5px;
-  color: #ff6500;
-}
-
 .explainValue {
   position: relative;
   padding-left: 15px;
@@ -132,7 +126,7 @@ ul {
 
 .progressbar {
   width: 0%;
-  transition: width 0.1s ease-out; /* Smooth transition */
+  transition: width 0.1s ease-out;
   height: 5px;
   position: sticky;
   top: 0px;
