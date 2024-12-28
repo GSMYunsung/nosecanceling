@@ -45,6 +45,7 @@ li {
 
 li::before {
   content: "•";
+  margin-right: 5px;
   color: #ff6500;
 }
 
