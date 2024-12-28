@@ -4,6 +4,10 @@
   }
 }
 
+body {
+  margin: 0px;
+}
+
 .resume {
   max-width: 40rem;
   margin-left: auto;
@@ -97,4 +101,40 @@ ul {
   opacity: 0.7;
   border-radius: 25%;
   background-color: #3452ff;
+}
+
+.myselfInfo a {
+  color: #ff6500;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.myselfInfo strong::before {
+  content: "| ";
+  margin-right: 5px;
+  color: #ff6500;
+}
+
+.explainValue {
+  position: relative;
+  padding-left: 15px;
+}
+
+.explainValue::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #ff6500;
+}
+
+.progressbar {
+  width: 0%;
+  transition: width 0.1s ease-out; /* Smooth transition */
+  height: 5px;
+  position: sticky;
+  top: 0px;
+  background-color: #ff6500;
 }
